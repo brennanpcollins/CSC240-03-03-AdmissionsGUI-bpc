@@ -83,6 +83,7 @@ namespace CSC240_03_03_AdmissionsGUI_bpc
             this.UxCheckButton.TabIndex = 4;
             this.UxCheckButton.Text = "Press to see results!";
             this.UxCheckButton.UseVisualStyleBackColor = false;
+            this.UxCheckButton.Click += new System.EventHandler(this.UxCheckButton_Click);
             // 
             // UxResultTextBox3
             // 

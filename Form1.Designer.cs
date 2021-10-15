@@ -87,11 +87,14 @@ namespace CSC240_03_03_AdmissionsGUI_bpc
             // 
             // UxResultTextBox3
             // 
+            this.UxResultTextBox3.BackColor = System.Drawing.Color.Wheat;
+            this.UxResultTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UxResultTextBox3.Font = new System.Drawing.Font("Bernard MT Condensed", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UxResultTextBox3.Location = new System.Drawing.Point(868, 305);
             this.UxResultTextBox3.Name = "UxResultTextBox3";
-            this.UxResultTextBox3.Size = new System.Drawing.Size(200, 42);
+            this.UxResultTextBox3.Size = new System.Drawing.Size(200, 35);
             this.UxResultTextBox3.TabIndex = 5;
+            this.UxResultTextBox3.Visible = false;
             // 
             // Form1
             // 

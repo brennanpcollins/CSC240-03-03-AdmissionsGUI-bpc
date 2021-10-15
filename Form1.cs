@@ -31,17 +31,19 @@ namespace CSC240_03_03_AdmissionsGUI_bpc
             if ((GPA >= 3.00) && (score >= 60))
             {
                 UxResultTextBox3.Text = "Accepted!";
-
+                UxResultTextBox3.Visible = true;
             }
             else
             {
                 if ((GPA < 3.00) && (score >= 80))
                 {
                     UxResultTextBox3.Text = "Accepted!";
+                    UxResultTextBox3.Visible = true;
                 }
                 else
                 {
                     UxResultTextBox3.Text = "Rejected... Sorry!";
+                    UxResultTextBox3.Visible = true;
                 }
             }
             //OUTPUT
